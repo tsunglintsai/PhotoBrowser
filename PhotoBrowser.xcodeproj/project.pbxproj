@@ -17,7 +17,14 @@
 		3320E05416FC10910068ABA1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3320E05316FC10910068ABA1 /* Default@2x.png */; };
 		3320E05616FC10910068ABA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3320E05516FC10910068ABA1 /* Default-568h@2x.png */; };
 		3320E05916FC10910068ABA1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3320E05716FC10910068ABA1 /* MainStoryboard.storyboard */; };
-		3320E05C16FC10910068ABA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3320E05B16FC10910068ABA1 /* ViewController.m */; };
+		3320E06416FC112E0068ABA1 /* PhotoListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3320E06316FC112E0068ABA1 /* PhotoListTVC.m */; };
+		3320E06616FC11580068ABA1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3320E06516FC11580068ABA1 /* AssetsLibrary.framework */; };
+		3320E06916FC1D690068ABA1 /* GroupListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3320E06816FC1D690068ABA1 /* GroupListTVC.m */; };
+		3320E06C16FC27610068ABA1 /* ALAssetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3320E06B16FC27610068ABA1 /* ALAssetVC.m */; };
+		3320E06F16FC2D090068ABA1 /* PhotoALAssetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3320E06E16FC2D090068ABA1 /* PhotoALAssetVC.m */; };
+		3320E07216FC2DB30068ABA1 /* VideoALAssetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3320E07116FC2DB30068ABA1 /* VideoALAssetVC.m */; };
+		3320E07416FC30390068ABA1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3320E07316FC30390068ABA1 /* MediaPlayer.framework */; };
+		3320E07616FC370E0068ABA1 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3320E07516FC370E0068ABA1 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +42,19 @@
 		3320E05316FC10910068ABA1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3320E05516FC10910068ABA1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3320E05816FC10910068ABA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3320E05A16FC10910068ABA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3320E05B16FC10910068ABA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3320E06216FC112E0068ABA1 /* PhotoListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListTVC.h; sourceTree = "<group>"; };
+		3320E06316FC112E0068ABA1 /* PhotoListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListTVC.m; sourceTree = "<group>"; };
+		3320E06516FC11580068ABA1 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3320E06716FC1D690068ABA1 /* GroupListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupListTVC.h; sourceTree = "<group>"; };
+		3320E06816FC1D690068ABA1 /* GroupListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupListTVC.m; sourceTree = "<group>"; };
+		3320E06A16FC27600068ABA1 /* ALAssetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAssetVC.h; sourceTree = "<group>"; };
+		3320E06B16FC27610068ABA1 /* ALAssetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAssetVC.m; sourceTree = "<group>"; };
+		3320E06D16FC2D090068ABA1 /* PhotoALAssetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoALAssetVC.h; sourceTree = "<group>"; };
+		3320E06E16FC2D090068ABA1 /* PhotoALAssetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoALAssetVC.m; sourceTree = "<group>"; };
+		3320E07016FC2DB30068ABA1 /* VideoALAssetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoALAssetVC.h; sourceTree = "<group>"; };
+		3320E07116FC2DB30068ABA1 /* VideoALAssetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoALAssetVC.m; sourceTree = "<group>"; };
+		3320E07316FC30390068ABA1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3320E07516FC370E0068ABA1 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3320E07416FC30390068ABA1 /* MediaPlayer.framework in Frameworks */,
+				3320E06616FC11580068ABA1 /* AssetsLibrary.framework in Frameworks */,
 				3320E04016FC10900068ABA1 /* UIKit.framework in Frameworks */,
 				3320E04216FC10900068ABA1 /* Foundation.framework in Frameworks */,
 				3320E04416FC10900068ABA1 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +93,8 @@
 		3320E03E16FC10900068ABA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3320E07316FC30390068ABA1 /* MediaPlayer.framework */,
+				3320E06516FC11580068ABA1 /* AssetsLibrary.framework */,
 				3320E03F16FC10900068ABA1 /* UIKit.framework */,
 				3320E04116FC10900068ABA1 /* Foundation.framework */,
 				3320E04316FC10900068ABA1 /* CoreGraphics.framework */,
@@ -83,11 +105,18 @@
 		3320E04516FC10900068ABA1 /* PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				3320E04E16FC10900068ABA1 /* AppDelegate.h */,
-				3320E04F16FC10900068ABA1 /* AppDelegate.m */,
+				3320E06716FC1D690068ABA1 /* GroupListTVC.h */,
+				3320E06816FC1D690068ABA1 /* GroupListTVC.m */,
+				3320E06216FC112E0068ABA1 /* PhotoListTVC.h */,
+				3320E06316FC112E0068ABA1 /* PhotoListTVC.m */,
+				3320E06A16FC27600068ABA1 /* ALAssetVC.h */,
+				3320E06B16FC27610068ABA1 /* ALAssetVC.m */,
+				3320E06D16FC2D090068ABA1 /* PhotoALAssetVC.h */,
+				3320E06E16FC2D090068ABA1 /* PhotoALAssetVC.m */,
+				3320E07016FC2DB30068ABA1 /* VideoALAssetVC.h */,
+				3320E07116FC2DB30068ABA1 /* VideoALAssetVC.m */,
 				3320E05716FC10910068ABA1 /* MainStoryboard.storyboard */,
-				3320E05A16FC10910068ABA1 /* ViewController.h */,
-				3320E05B16FC10910068ABA1 /* ViewController.m */,
+				3320E07516FC370E0068ABA1 /* Storyboard.storyboard */,
 				3320E04616FC10900068ABA1 /* Supporting Files */,
 			);
 			path = PhotoBrowser;
@@ -96,6 +125,8 @@
 		3320E04616FC10900068ABA1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3320E04E16FC10900068ABA1 /* AppDelegate.h */,
+				3320E04F16FC10900068ABA1 /* AppDelegate.m */,
 				3320E04716FC10900068ABA1 /* PhotoBrowser-Info.plist */,
 				3320E04816FC10900068ABA1 /* InfoPlist.strings */,
 				3320E04B16FC10900068ABA1 /* main.m */,
@@ -163,6 +194,7 @@
 				3320E05416FC10910068ABA1 /* Default@2x.png in Resources */,
 				3320E05616FC10910068ABA1 /* Default-568h@2x.png in Resources */,
 				3320E05916FC10910068ABA1 /* MainStoryboard.storyboard in Resources */,
+				3320E07616FC370E0068ABA1 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +207,11 @@
 			files = (
 				3320E04C16FC10900068ABA1 /* main.m in Sources */,
 				3320E05016FC10900068ABA1 /* AppDelegate.m in Sources */,
-				3320E05C16FC10910068ABA1 /* ViewController.m in Sources */,
+				3320E06416FC112E0068ABA1 /* PhotoListTVC.m in Sources */,
+				3320E06916FC1D690068ABA1 /* GroupListTVC.m in Sources */,
+				3320E06C16FC27610068ABA1 /* ALAssetVC.m in Sources */,
+				3320E06F16FC2D090068ABA1 /* PhotoALAssetVC.m in Sources */,
+				3320E07216FC2DB30068ABA1 /* VideoALAssetVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +301,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoBrowser/PhotoBrowser-Prefix.pch";
 				INFOPLIST_FILE = "PhotoBrowser/PhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,7 +314,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoBrowser/PhotoBrowser-Prefix.pch";
 				INFOPLIST_FILE = "PhotoBrowser/PhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

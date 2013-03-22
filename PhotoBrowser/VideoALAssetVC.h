@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  VideoALAssetVC.h
 //  PhotoBrowser
 //
 //  Created by Daniela on 3/21/13.
 //  Copyright (c) 2013 Pyrogusto. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ALAssetVC.h"
 
-@interface ViewController : UIViewController
+@interface VideoALAssetVC : ALAssetVC
 
 @end

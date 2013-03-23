@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--Group ListTVC-->
+        <!--Group ListTVC - Asset Group-->
         <scene sceneID="ho5-2a-vIu">
             <objects>
                 <tableViewController id="tV8-3t-vG1" customClass="GroupListTVC" sceneMemberID="viewController">
@@ -47,14 +47,14 @@
                             <outlet property="delegate" destination="tV8-3t-vG1" id="dg6-9L-IRE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="ihI-RH-PqF"/>
+                    <navigationItem key="navigationItem" title="Asset Group" id="ihI-RH-PqF"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LL4-UG-Y0K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1012" y="24"/>
+            <point key="canvasLocation" x="240" y="24"/>
         </scene>
-        <!--Photo ListTVC-->
+        <!--Photo ListTVC - Asset List-->
         <scene sceneID="yWs-A6-F2q">
             <objects>
                 <tableViewController id="LCs-cp-bNB" customClass="PhotoListTVC" sceneMemberID="viewController">
@@ -150,12 +150,12 @@
                             <outlet property="delegate" destination="LCs-cp-bNB" id="LK4-KE-v3O"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="rHS-tv-NCw"/>
+                    <navigationItem key="navigationItem" title="Asset List" id="rHS-tv-NCw"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QFL-gX-Gfi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1869" y="80"/>
+            <point key="canvasLocation" x="635" y="24"/>
         </scene>
         <!--VideoAL AssetVC - Video-->
         <scene sceneID="gvs-RU-wLz">
@@ -171,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8O1-id-4Xi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2785" y="468"/>
+            <point key="canvasLocation" x="1144" y="330"/>
         </scene>
         <!--PhotoAL AssetVC - Photo-->
         <scene sceneID="59d-sh-4Vz">
@@ -199,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E9d-qI-lz1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2968" y="-173"/>
+            <point key="canvasLocation" x="1144" y="-347"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WJz-Y1-n5q">
@@ -218,7 +218,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CfO-ht-teU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="38" y="24"/>
+            <point key="canvasLocation" x="-124" y="24"/>
         </scene>
     </scenes>
     <classes>
